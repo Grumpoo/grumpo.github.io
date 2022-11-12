@@ -24,9 +24,9 @@ body {
 }
 
 #otherskins {
-	text-align: center;
-	position: relative;
-	top: 575px;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	top: 600px;
 	color: #c0caf5;
 	letter-spacing: -2px;
 	text-decoration: none;
@@ -46,5 +46,5 @@ header {
 	transform: translate(-50%, -50%);
 	position: absolute;
 	color: #1a1b26;
-	top: 35%;
+	top: 350px;
 }
