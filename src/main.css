@@ -1,0 +1,81 @@
+@font-face {
+	font-family: "Iosevka";
+	src: url("./Iosevka.ttf");
+}
+
+body {
+	font-family: "Iosevka";
+	text-align: center;
+	font-size: 24px;
+	background-image: url("./img/background.png");
+	text-shadow: 1.5px 1.5px 0px #24283b;
+}
+
+p {
+	color: #c0caf5;
+	letter-spacing: -2px;
+}
+
+a {
+	color: #c0caf5;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#osu {
+	color: #F99BF9;
+	letter-spacing: -2px;
+}
+
+#twitch {
+	color: #bb9af7;
+	letter-spacing: -2px;
+}
+
+#youtube {
+	color: #f7768e;
+	letter-spacing: -2px;
+}
+
+#github {
+	color: #ffffff;
+	letter-spacing: -2px;
+}
+
+#skins {
+	letter-spacing: -2px;
+}
+
+header li {
+	background-color: #1a1b26;
+	color: inherit;
+	display: inline-block;
+	padding: 10px 16px;
+}
+
+header ul {
+	display: inline;
+	width: 100%;
+	list-style-type: none;
+	font-size: 20pt;
+	color: rgba(0, 0, 0, 0.0);
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	width: 35%;
+	left: 50%;
+	background-color: #1a1b26;
+	border-style: solid;
+	border-width: 25px;
+	border-radius: 25px;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	color: #1a1b26;
+	z-index: 10;
+	top: 50%;
+}
