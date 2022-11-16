@@ -1,0 +1,73 @@
+@font-face {
+	font-family: "Iosevka";
+	src: url("./Iosevka.ttf");
+}
+
+body {
+	font-family: "Iosevka";
+	font-size: 24px;
+	background-image: url("./img/background.png");
+	text-shadow: 1.5px 1.5px 0px #24283b;
+}
+
+#skinname {
+	font-size: 36px;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	top: 80px;
+	color: #c0caf5;
+	letter-spacing: -2px;
+	text-decoration: none;
+}
+
+#mainskin {
+	position: relative;
+	left: -35%;
+	top: 2px;
+	color: #c0caf5;
+	letter-spacing: -2px;
+	text-decoration: none;
+}
+
+#mainskin:hover {
+	text-decoration: underline;
+}
+
+#dtskin {
+	position: relative;
+	left: -37%;
+	top: 2px;
+	color: #c0caf5;
+	letter-spacing: -2px;
+	text-decoration: none;
+}
+
+#dtskin:hover {
+	text-decoration: underline;
+}
+
+#otherskins {
+	transform: translate(-50%, -50%);
+	position: absolute;
+	top: 850px;
+	color: #c0caf5;
+	letter-spacing: -2px;
+	text-decoration: none;
+}
+
+#otherskins:hover {
+	text-decoration: underline;
+}
+
+header {
+	width: 475px;
+	left: 50%;
+	background-color: #1a1b26;
+	border-style: solid;
+	border-width: 15px;
+	border-radius: 25px;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	color: #1a1b26;
+	top: 450px;
+}
