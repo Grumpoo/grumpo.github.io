@@ -1,0 +1,67 @@
+@import url("fonts.googleapis.com/css?family=Roboto:300,400,500");
+
+@font-face {
+	font-family: "Iosevka";
+	src: url("./Iosevka.ttf");
+}
+
+@font-face {
+	font-family: "Iosevka Italic";
+	src: url("./Iosevka Italic.ttf");
+}
+
+body {
+    font-family: "Roboto Condensed";
+    font-size: 24px;
+    background-image: url("./img/bg.png");
+}
+
+#mainskin {
+	position: relative;
+    top: 12px;
+	left: -138px;
+	color: #f8f8f8;
+    text-shadow: 1.25px 1.25px #282828;
+	text-decoration: none;
+}
+
+#mainskin:hover {
+	text-decoration: underline;
+}
+
+#otherskins {
+    position: relative;
+    top: 850px;
+    color: #f8f8f8;
+    text-shadow: 1.25px 1.25px #282828;
+    text-decoration: none;
+}
+
+#otherskins:hover {
+	text-decoration: underline;
+}
+
+#comment {
+    font-family: "Iosevka Italic";
+    font-size: 16px;
+    letter-spacing: -1px;
+    color: #f8f8f822;
+    position: absolute;
+    bottom: -6px;
+    left: 12px;
+}
+
+#comment::before {
+    font-family: "Iosevka";
+    content: "// ";
+}
+
+header {
+    background-color: #181818;
+    box-shadow: 6px 6px 2px #00000022;
+    width: 482px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}   
