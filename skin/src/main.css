@@ -30,8 +30,9 @@ body {
 }
 
 #otherskins {
-    position: relative;
-    top: 850px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 80%;
     color: #f8f8f8;
     text-shadow: 1.25px 1.25px #282828;
     text-decoration: none;
