@@ -29,20 +29,7 @@ body {
 	text-decoration: underline;
 }
 
-#otherskins {
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 80%;
-    color: #f8f8f8;
-    text-shadow: 1.25px 1.25px #282828;
-    text-decoration: none;
-}
-
-#otherskins:hover {
-	text-decoration: underline;
-}
-
-#comment {
+#oldskins {
     font-family: "Iosevka Italic";
     font-size: 16px;
     letter-spacing: -1px;
@@ -52,9 +39,14 @@ body {
     left: 12px;
 }
 
-#comment::before {
+
+#oldskins::before {
     font-family: "Iosevka";
     content: "// ";
+}
+
+#oldskins:hover {
+	text-decoration: underline;
 }
 
 header {
